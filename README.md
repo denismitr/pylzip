@@ -8,10 +8,10 @@ Denis Mitrofanov
 
 #### Usage 
 ```bash
-docker run --rm -v $(pwd):/package denismitr/pylzip opencv-python-headless
+docker run --rm -v $(pwd):/layer denismitr/pylzip opencv-python-headless
 ```
 
 ```bash
-docker run --rm -v $(pwd):/package denismitr/pylzip opencv-python-headless
+docker run --rm -v $(pwd):/layer denismitr/pylzip numpy
 ```
 
